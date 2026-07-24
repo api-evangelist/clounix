@@ -1,8 +1,30 @@
 aid: clounix
 name: clounix
-description: clounix is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clounix (云合智网, Yunhe Zhiwang) is a fabless semiconductor company founded in
+  2020 and headquartered in Shanghai, with additional offices in Hangzhou,
+  Nanjing, Beijing, and Chengdu. It designs high-end networking and
+  communication silicon — high-performance programmable Ethernet switch chips,
+  DPUs (Data Processing Units), and SmartNIC intelligent network cards — along
+  with cloud-native infrastructure hardware and customized software for data
+  centers and 5G networks. Its switch platforms run the open-source SONiC
+  network operating system, and the company maintains a public GitHub
+  organization with SONiC/SAI networking software. Clounix is a portfolio
+  company of Qiming Venture Partners. It currently publishes no public
+  developer-facing API, SDK, or documentation portal.
 url: https://raw.githubusercontent.com/api-evangelist/clounix/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://clounix.com.cn/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Networking
+- DPU
+- SmartNIC
+- Ethernet Switch
+- Chips
+- Data Center
+- SONiC
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://clounix.com.cn
+- type: About
+  url: https://clounix.com.cn/about
+- type: Blog
+  url: https://clounix.com.cn/news
+- type: Careers
+  url: https://clounix.com.cn/job
+- type: Support
+  url: https://clounix.com.cn/contact
+- type: Login
+  url: https://sso.clounix.com.cn
+- type: GitHubOrganization
+  url: https://github.com/clounix
+- type: DomainSecurity
+  url: security/clounix-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
