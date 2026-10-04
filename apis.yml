@@ -53,7 +53,7 @@ tags:
 - SmartNIC
 - Ethernet Switch
 - Chips
-- Data-Center
+- Data Center
 - SONiC
 - Hardware
 tags_raw:
@@ -67,6 +67,7 @@ tags_raw:
 - Data Center
 - SONiC
 - Hardware
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
